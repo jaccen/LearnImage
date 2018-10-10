@@ -26,6 +26,7 @@ int main()
 	Mat image2;	
 	imshow("加噪声图像", Salt_Image);
 	filter.AverFiltering(Salt_Image, image1);
+
 	//blur(Salt_Image, image2, Size(3, 3));//openCV库自带的均值滤波函数
 	imshow("原图", image);	
 	imshow("自定义均值滤波", image1);	
