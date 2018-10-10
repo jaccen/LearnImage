@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\Filter.cpp" />
+    <ClCompile Include="..\..\src\myFilter.cpp" />
     <ClCompile Include="..\..\test\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\Filter.h" />
+    <ClInclude Include="..\..\src\myFilter.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
